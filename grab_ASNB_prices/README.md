@@ -8,6 +8,7 @@ To pull the NAV prices every working day, a dd a cronjob to your Linux or OSX to
 If you typically travel and may have only intermittent internet connection, set the cronjob to run every 20 minutes, from 9am to 8pm, for example.
 
 Add this to your cronjob:
+
 */20 9-20 * * 1-5 ~/grab_ASNB_prices/grab_master.sh
 
 
