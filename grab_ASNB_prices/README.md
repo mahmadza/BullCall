@@ -14,8 +14,16 @@ Add this to your cronjob:
 
 (when I first started pulling the NAV prices, the ASNB page is updated daily around 8am).
 
-Also don't forget to set up the correct path for the output file.
+Also don't forget to set up the correct path for the output file. Also do not forget to add column headers (the funds' names) to the output file. When you first run and set up the cronjob, make sure the NAV price values and the output in the output file are consistent by checking the output manually.
 
 Bear in mind that some of the funds, especially the non-fixed priced funds, may charge you either 3% if you invest through EPF (Employee's Provident Fund), or 5% if you do it yourself.
 
 DISCLAIMER: Please consult your financial planner before making any financial decision. This resource is for your education and entertainment only.
+
+
+NAV_120619_230819.txt
+This file contains an example output from grab_master.sh, run on the cronjob as above.
+Please note:
+1) I have manually added the header to the output file, which consists of the funds' names
+2) When the funds are suspended for bookkeeping, you will see that the NAV of the funds is missing (as NAs)
+3) When there is public holiday during the weekday, the NAV of all funds are also missing. This is because the cronjob do not take into account Malaysia or Kuala Lumpur public holidays
