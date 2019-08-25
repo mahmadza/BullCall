@@ -1,8 +1,13 @@
 
+# Introduction
+
 This repository is to pull the NAV (Net Asset Value) of mutual funds under the management of ASNB (Amanah Saham Nasional Berhad).
 ASNB (http://www.asnb.com.my), a fully-owned subsidiary of Permodalan Nasional Berhad (PNB), has 14 funds with ~RM235 billion of Asset Under Management as of 31st December 2018. ASNB is one of the biggest institutional investor in Malaysia.
 
 This repository was created to pull the NAV prices of the ASNB funds, as I could not find any resources on the Web on them.
+
+
+## Setting Up daily NAV price pull
 
 To pull the NAV prices every working day, add a cronjob to your Linux or OSX to run grab_master.sh.
 If you typically travel and may have only intermittent internet connection, set the cronjob to run every 20 minutes, from 9am to 8pm, for example.
@@ -20,6 +25,7 @@ Bear in mind that some of the funds, especially the non-fixed priced funds, may 
 
 DISCLAIMER: Please consult your financial planner before making any financial decision. This resource is for your education and entertainment only.
 
+## Example output
 
 NAV_120619_230819.txt
 This file contains an example output from grab_master.sh, run on the cronjob as above.
