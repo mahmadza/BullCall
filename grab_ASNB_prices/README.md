@@ -31,5 +31,14 @@ DISCLAIMER: Please consult your financial planner before making any financial de
 NAV_120619_230819.txt
 This file contains an example output from grab_master.sh, run on the cronjob as above. This is the raw output. Points to note:
 1) I have manually added the header to the output file, which consists of the funds' names
-2) When the funds are suspended for bookkeeping, you will see that the NAV of the funds is missing (as "NA"s)
+2) When the funds are suspended for bookkeeping, you will see that the NAV of the funds is missing (as "Suspended")
 3) When there is public holiday during the weekday, the NAV of all funds are also missing. This is because the cronjob do not take into account Malaysia or Kuala Lumpur public holidays
+
+The NAVs of the fixed price can be safely ignored, as their name, fixed price suggest.
+
+From here, several interesting analyses can be performed:
+1) correlation between the NAVs
+2) the median, minimum or max of the NAVs
+3) correlation between the NAVs vs the Dow or KLCI index, or other index for that matter (you'd need to download the datapoints for these indices separately)
+4) from (2), you can find the "alpha", i.e the outperformance of the funds vs the reference index
+5) how much the NAVs dropped during Christmas 2018, where the Dow and NASDAQ dropped heavily, and how responsive the NAVs were right after
