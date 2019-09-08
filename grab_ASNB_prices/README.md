@@ -14,7 +14,7 @@ If you typically travel and may have only intermittent internet connection, set 
 
 Add this to your cronjob:
 
-*/20 9-20 * * 1-5 ~/grab_ASNB_prices/grab_master.sh
+```*/20 9-20 * * 1-5 ~/grab_ASNB_prices/grab_master.sh```
 
 
 (when I first started pulling the NAV prices, the ASNB page is updated daily around 8am).
