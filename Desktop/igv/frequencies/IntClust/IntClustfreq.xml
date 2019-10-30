@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" hasGeneTrack="true" hasSequenceTrack="true" locus="All" path="/Users/zabidi/Desktop/igv/frequencies/IntClustfreq.xml" version="8">
+    <Resources>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust7_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust8_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust5_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust4-_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust3_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust9_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust10_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust1_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust1_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust10_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust2_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust2_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust4+_delfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust7_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust6_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust4+_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust9_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust4-_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust8_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust3_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust5_ampfreq.igv"/>
+        <Resource path="/Users/zabidi/Desktop/igv/frequencies/IntClust6_delfreq.igv"/>
+    </Resources>
+    <Panel height="880" name="DataPanel" width="1903">
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" colorScale="ContinuousColorScale;0.0;0.7297300100326538;255,255,255;255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust1_ampfreq.igv_1_amp_freq" name="1_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust1_delfreq.igv_1_del_freq" name="1_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.405405" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust2_ampfreq.igv_2_amp_freq" name="2_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust2_delfreq.igv_2_del_freq" name="2_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.722222" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust3_ampfreq.igv_3_amp_freq" name="3_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust3_delfreq.igv_3_del_freq" name="3_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.258065" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust4-_ampfreq.igv_4-_amp_freq" name="4-_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust4-_delfreq.igv_4-_del_freq" name="4-_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.186047" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust4+_ampfreq.igv_4+_amp_freq" name="4+_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust4+_delfreq.igv_4+_del_freq" name="4+_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.212121" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust5_ampfreq.igv_5_amp_freq" name="5_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust5_delfreq.igv_5_del_freq" name="5_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.230769" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust6_ampfreq.igv_6_amp_freq" name="6_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust6_delfreq.igv_6_del_freq" name="6_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.5" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust7_ampfreq.igv_7_amp_freq" name="7_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust7_delfreq.igv_7_del_freq" name="7_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.382979" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust8_ampfreq.igv_8_amp_freq" name="8_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust8_delfreq.igv_8_del_freq" name="8_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.483871" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust9_ampfreq.igv_9_amp_freq" name="9_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust9_delfreq.igv_9_del_freq" name="9_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.44186" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,51,51" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust10_ampfreq.igv_10_amp_freq" name="10_amp_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="/Users/zabidi/Desktop/igv/frequencies/IntClust10_delfreq.igv_10_del_freq" name="10_del_freq" normalize="false" renderer="BAR_CHART" sortable="true" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.0" minimum="-0.338235" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="87" name="FeaturePanel" width="1903">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;308.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="14" height="35" id="hg19_genes" name="RefSeq Genes" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="308.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <PanelLayout dividerFractions="0.8826530612244898"/>
+    <Regions>
+        <Region chromosome="chr17" end="37910317" start="37780957"/>
+    </Regions>
+</Session>
