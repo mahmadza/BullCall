@@ -6,8 +6,6 @@
 #ASNB (Amanah Saham Nasional Berhad) mutual funds
 ###################################################
 
-cd /Users/zabidi/ASBprice/
-
 #first, download page into a temporary file
 page=$(mktemp)
 curl http://www.asnb.com.my:8080/ASNBWSP/Price_print.aspx > $page
