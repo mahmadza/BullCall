@@ -1,5 +1,5 @@
-# financial_market
-Collection of codes to mine and analyze data related to personal finance and the financial market.
+# BullCall
+Collection of codes to mine and analyze data on economics and financial markets.
 
 
-DISCLAIMER: Please consult your financial planner before making any financial decision. This resource is for your education and entertainment only.
+DISCLAIMER: Please consult a financial professional before making any financial decision. This resource is for your education and entertainment only (mostly entertainment).
