@@ -8,7 +8,11 @@
 
 #first, download page into a temporary file
 page=$(mktemp)
-curl http://www.asnb.com.my:8080/ASNBWSP/Price_print.aspx > $page
+#curl http://www.asnb.com.my/price.aspx > $page
+#curl http://www.asnb.com.my:8080/ASNBWSP/Price_print.aspx > $page
+#update 01/01/2020
+curl http://www.asnb.com.my:8080/ASNBWSP/printPrice.aspx > $page
+#there has been several iterations of the access points...
 
 #grab date
 #here, I choose the Malay format
