@@ -12,8 +12,6 @@ page=$(mktemp)
 #curl http://www.asnb.com.my:8080/ASNBWSP/Price_print.aspx > $page
 #update 01/01/2020
 #curl http://www.asnb.com.my:8080/ASNBWSP/printPrice.aspx > $page
-#update 17/09/2020
-curl https://www.asnb.com.my/dpv2_thedisplay-print.php > $page
 #there has been several iterations of the access points...
 
 #grab date
