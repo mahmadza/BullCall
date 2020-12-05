@@ -42,3 +42,9 @@ From here, several interesting analyses can be performed:
 3) correlation between the NAVs vs the Dow or KLCI index, or other index for that matter (you'd need to download the datapoints for these indices separately)
 4) from (2), you can find the "alpha", i.e the outperformance of the funds vs the reference index
 5) how much the NAVs dropped during Christmas 2018, where the Dow and NASDAQ dropped heavily, and how responsive the NAVs were right after
+
+
+## This code is no longer maintained.
+
+This code is no longer maintained since the ASNB price website mutates too often.
+Thanks.
