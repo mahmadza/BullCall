@@ -16,13 +16,24 @@ page=$(mktemp)
 curl https://www.asnb.com.my/dpv2_thedisplay-print.php > $page
 #there has been several iterations of the access points...
 
+
+
+
+
 #grab date
 #here, I choose the Malay format
-date_malay=$(awk '$0~"lblDate"{
-  split($0,x,">")
-  split(x[2],y,"<")
-  print y[1]
-}' $page | sed 's/ /_/g')
+# date_malay=$(awk '$0~"lblDate"{
+#   split($0,x,">")
+#   split(x[2],y,"<")
+#   print y[1]
+# }' $page | sed 's/ /_/g')
+
+date_malay=$(awk '/HARGA HARI INI/{print $4"_"$5"_"substr($6,1,4)}' $page | \
+tr [:lower:] [:upper:])
+
+print $date_malay
+
+exit
 
 #from the saved webpage, grab NAV price list
 price_list=$(mktemp)
