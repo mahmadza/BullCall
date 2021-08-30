@@ -31,7 +31,7 @@ curl https://www.asnb.com.my/dpv2_thedisplay-print.php > $page
 date_malay=$(awk '/HARGA HARI INI/{print $4"_"$5"_"substr($6,1,4)}' $page | \
 tr [:lower:] [:upper:])
 
-print $date_malay
+echo $date_malay
 
 exit
 
