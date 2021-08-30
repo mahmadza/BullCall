@@ -33,7 +33,21 @@ tr [:lower:] [:upper:])
 
 echo $date_malay
 
-exit
+# grab prices and print to separate files
+price_prefix=$(mktemp)
+cat $page | awk -v pre=$price_prefix \
+'$0~/<td>AS/{
+  fund = substr($1,5)$2$3$4
+  price[fund]=1}
+$0~/<td width=/{
+  getline
+  price[fund] = $1
+  target = pre"_"fund
+  print price[fund] > target
+  print price[fund], target
+  }'
+
+
 
 #from the saved webpage, grab NAV price list
 price_list=$(mktemp)
