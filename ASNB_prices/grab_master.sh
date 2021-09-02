@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 ###################################################
@@ -15,6 +14,7 @@ page=$(mktemp)
 #update 17/09/2020
 curl https://www.asnb.com.my/dpv2_thedisplay-print.php > $page
 #there has been several iterations of the access points...
+
 #update 30/08/2021
 curl https://www.asnb.com.my/dpv2_thedisplay-printnewBM.php > $page
 
