@@ -47,6 +47,7 @@ if grep "$date_malay" daily_prices.txt; then
     echo -en $date_malay"\t"$(cat ${prefix}_ASN)"\t"\
     $(cat ${prefix}_ASNEquity2)"\t"\
     $(cat ${prefix}_ASNImbang1)"\t"\
+    $(cat ${prefix}_ASNImbang2)"\t"\
     $(cat ${prefix}_ASNEquity3)"\t"\
     $(cat ${prefix}_ASNSara1)"\t"\
     $(cat ${prefix}_ASB)"\t"\
