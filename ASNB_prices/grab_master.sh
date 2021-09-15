@@ -12,7 +12,7 @@ page=$(mktemp)
 #update 01/01/2020
 #curl http://www.asnb.com.my:8080/ASNBWSP/printPrice.aspx > $page
 #update 17/09/2020
-curl https://www.asnb.com.my/dpv2_thedisplay-print.php > $page
+#curl https://www.asnb.com.my/dpv2_thedisplay-print.php > $page
 #there has been several iterations of the access points...
 
 #update 30/08/2021
@@ -40,13 +40,14 @@ cat $page | awk -v pre=$prefix \
     }'
 
 #check if date is already present
-#if not, append new NAB price
+#if not, append new NAV
 if grep "$date_malay" daily_prices.txt; then
     echo "Date already present"
   else
     echo -en $date_malay"\t"$(cat ${prefix}_ASN)"\t"\
     $(cat ${prefix}_ASNEquity2)"\t"\
     $(cat ${prefix}_ASNImbang1)"\t"\
+    $(cat ${prefix}_ASNImbang2)"\t"\
     $(cat ${prefix}_ASNEquity3)"\t"\
     $(cat ${prefix}_ASNSara1)"\t"\
     $(cat ${prefix}_ASB)"\t"\
@@ -57,7 +58,8 @@ if grep "$date_malay" daily_prices.txt; then
     $(cat ${prefix}_ASB2)"\t"\
     $(cat ${prefix}_ASNSara2)"\t"\
     $(cat ${prefix}_ASNEquity5)"\t"\
-    $(cat ${prefix}_ASNImbang3Global)"\n" >> daily_prices.txt
+    $(cat ${prefix}_ASNImbang3Global)"\t"\
+    $(cat ${prefix}_ASNEquityGlobal)"\n" >> daily_prices.txt
 fi
 
 #clean up
